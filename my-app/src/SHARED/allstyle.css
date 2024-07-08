@@ -1,0 +1,11 @@
+.base-style{
+    height:100% ;
+    width: calc(100% - 100px);
+    background-color: #ef2f52;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.7791491596638656) 0%, rgba(0,0,0,0.9360119047619048) 85%);}

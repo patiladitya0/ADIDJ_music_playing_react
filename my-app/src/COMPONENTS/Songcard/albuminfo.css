@@ -1,0 +1,41 @@
+
+
+.album-container {
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: space-around   ;
+    /* Space items evenly along the vertical axis */
+    align-items: center;
+    /* Align items to the start of the container */
+    position: relative;
+    object-fit: contain;
+    top: 50%;
+}
+
+.album-name {
+    margin-top: -50px;
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(226, 230, 233);
+    padding-left: 2%;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.album-artists {
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(226, 230, 233);
+}
+
+.playing-txt{
+    display: flex;
+    padding-left: 3%;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(226, 230, 233);
+    margin-bottom: 35px;
+}

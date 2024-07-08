@@ -1,0 +1,27 @@
+.control-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action-btn{
+    cursor: pointer;
+    transition: all 0.9 ease-in-out;
+
+}
+
+.action-btn:hover{
+    transform: scale(1.1);
+}
+
+.ply-pau-btn{
+    cursor: pointer;
+    transition: all 0.9 ease-in-out;
+}
+
+.ply-pau-btn:hover{
+    transform: scale(1.1);
+}
+

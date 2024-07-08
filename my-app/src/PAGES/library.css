@@ -1,0 +1,78 @@
+.library-body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 3%;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.playlist-block {
+    width: 18%;
+    height: 45%;
+    border-radius: 20px;
+    padding: 2%;
+    border: 5px solid linear-gradient(0deg, rgba(239, 47, 82, 0.3925945378151261) 0%, rgba(0, 0, 0, 1) 100%);
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background: rgb(239, 47, 82);
+    background: linear-gradient(0deg, rgba(239, 47, 82, 0.6839110644257703) 0%, rgba(0, 0, 0, 1) 100%);
+    transition: all 0.4s ease-in-out;
+}
+
+.playlist-block:hover {
+    transform: scale(1.10);
+}
+
+.playlist-Image {
+    display: flex;
+    aspect-ratio: 1;
+    width: 100%;
+    border-radius: 20px;
+    scale: 1;
+}
+
+.playlist-Name {
+    color: rgb(226, 230, 233);
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 7%;
+    margin-left: -6%;
+    overflow: hidden;
+    white-space: nowrap;
+    /* Ensure text is on one line */
+    text-overflow: ellipsis;
+    display: block;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.playlist-Subname {
+    color: rgb(226, 230, 233);
+    font-size: small;
+    font-weight: 400;
+    margin-top: -11%;
+    margin-left: -6%;
+}
+
+.play-btn {
+    position: relative;
+    margin-top: -130%;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: 0px solid white;
+    opacity: 0;
+    height: 100%;
+    width: 106%;
+}
+
+.play-btn:hover {
+    opacity: 1;
+}

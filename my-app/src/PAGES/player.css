@@ -1,0 +1,21 @@
+.left-player-body {
+    
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(55, 179, 30); */
+    margin-right: 2%;
+}
+
+.right-player-body {
+    width: 68%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+    /* background-color: rgb(224, 20, 173); */
+   
+}
+
+.space {
+    width: 2%;
+}
