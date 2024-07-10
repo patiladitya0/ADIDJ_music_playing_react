@@ -33,7 +33,7 @@ export default function Sidebar() {
                 {/* <Sidebarbutton title="Favorite" to="/" icon={<MdFavorite />} /> */}
                 {/* <Sidebarbutton title="Feed" to="/feed" icon={<ImFeed />} /> */}
                 
-                <Sidebarbutton title="Library" to="/library" icon={< MdLibraryMusic />} />
+                <Sidebarbutton title="Library" to="/" icon={< MdLibraryMusic />} />
                 <Sidebarbutton title="Player" to="/player" icon={<FaPlay />} />
                 <Sidebarbutton title="Trending" to="/trending" icon={<BsFire />} />
             </div>
