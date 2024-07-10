@@ -37,13 +37,14 @@ export default function Home() {
 
                 <Sidebar />
                 <Routes>
-                    {/* <Route path="/" element={<Favorite />} /> */}
+                    {/* <Route path="/favorite" element={<Favorite />} /> */}
                     {/* <Route path="/feed" element={<Feed />} /> */}
                     <Route path="/player" element={<Player />} />
-                    <Route path="/library" element={<Library />} />
+                    <Route path="/" element={<Library />} />
                     <Route path="/trending" element={<Trending />} />
                 </Routes>
             </div>
+        
 
         </Router>
 
